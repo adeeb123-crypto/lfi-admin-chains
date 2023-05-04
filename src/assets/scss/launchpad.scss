@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  touch-action: none;
+  width: 100%;
+  height: 100%;
+  margin: 1rem auto;
+}
+
+.dropzone {
+  flex: 1;
+  height: 300px;
+  border: none;
+  // border-radius: 1rem;
+}
+
+.dropzone.left {
+  margin-right: 10px;
+}
+
+.editStagesBody.card {
+  padding:5px 4px;
+  margin: 0;
+}
+
+.editStagesBody .card-header {
+  padding: 10px 15px;
+}
+
+.editStagesBody .card-body {
+  padding: 10px;
+  min-height: 240px;
+}
+
+.editStagesBody .actionBtn {
+  margin: 10px;
+}
+
+.editStagesBody ::-webkit-scrollbar {
+  width: 3px;
+}
+ 
+.editStagesBody ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.editStagesBody ::-webkit-scrollbar-thumb {
+  background-color: #5156be;
+  // outline: 1px solid #5156be;
+}
+
+.breakWord { 
+  // white-space: pre-wrap;      /* CSS3 */   
+  // white-space: -moz-pre-wrap; /* Firefox */    
+  // white-space: -pre-wrap;     /* Opera <7 */   
+  // white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-break: break-word;      /* IE */
+}
+
+.teamInfoStage .actionBtn {
+  margin: 10px !important;
+}
